@@ -28,8 +28,8 @@ if not os.path.exists(csv_file):
 
 #function TO log Conversation in CSV file
 def log_csv(userInput, chatbotResponse):
-    timestamp = datetime.now().strftime("%Y-%m-%d %H: %M: %S")
-    with open(csv_file, mode = 'a', encoding='utf-8', newline='') as file:
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    with open(csv_file, mode='a', encoding='utf-8', newline='') as file:
         writer = csv.writer(file)
         writer.writerow([userInput, chatbotResponse, timestamp])
 
