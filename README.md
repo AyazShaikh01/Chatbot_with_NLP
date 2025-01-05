@@ -40,5 +40,7 @@ Streamlit powers a minimalistic and easy-to-navigate interface, making SkillNavi
 Have questions or feedback? Let’s connect!
 
 Author: Ayaz Shaikh
+
 GitHub: https://github.com/AyazShaikh01/
+
 Chatbot App: https://chatbotwithnlp.streamlit.app/
