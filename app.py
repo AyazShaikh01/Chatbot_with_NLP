@@ -6,7 +6,7 @@ import csv
 import streamlit as st
 from src.model import load_data, train_model, get_response
 
-nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 
 

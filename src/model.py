@@ -7,7 +7,7 @@ from sklearn.linear_model import LogisticRegression
 from src.preprocess import preprocess
 
 import nltk
-nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 
 # Load dataset
