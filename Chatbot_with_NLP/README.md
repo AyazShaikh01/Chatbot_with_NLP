@@ -37,3 +37,10 @@ Handles out-of-scope queries with fallback responses to ensure user satisfaction
 
 4. User Interface
 Streamlit powers a minimalistic and easy-to-navigate interface, making SkillNavigator accessible to everyone.
+
+#📬 Contact
+Have questions or feedback? Let’s connect!
+
+Author: Ayaz Shaikh
+GitHub: AyazShaikh01
+Live Chatbot App: SkillNavigator
