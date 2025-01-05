@@ -1,14 +1,14 @@
-from src.model import load_data, train_model, get_response
+import nltk
 from datetime import datetime
 import streamlit as st
 import os
 import csv
 import streamlit as st
-import nltk
-
+from src.model import load_data, train_model, get_response
 
 nltk.download('punkt')
 nltk.download('stopwords')
+
 
 # Load data and train model
 data = load_data()
