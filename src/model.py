@@ -6,6 +6,10 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from src.preprocess import preprocess
 
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
+
 # Load dataset
 def load_data(file_path='data/dataset.json'):
     with open(file_path, 'r') as file:

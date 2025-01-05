@@ -4,6 +4,11 @@ import streamlit as st
 import os
 import csv
 import streamlit as st
+import nltk
+
+
+nltk.download('punkt')
+nltk.download('stopwords')
 
 # Load data and train model
 data = load_data()
