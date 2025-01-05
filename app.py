@@ -68,8 +68,17 @@ elif option == "Conversation History":
 elif option == "About":
     st.title("About")
     st.write("""
-    This chatbot is designed to assist users with information about the Skills4Future program.
-        It uses Natural Language Processing (NLP) techniques and machine learning to understand 
-        and respond to user queries. Built with Python, Streamlit, and scikit-learn, this chatbot 
-        demonstrates a simple yet effective implementation of conversational AI.
-""")
+    **SkillBot 🤖** is your personalized guide to the **Skills4Future** program. Designed to bridge the gap between curiosity and knowledge, this chatbot provides:
+    
+    - **Program Details**: Learn about eligibility, courses, and cutting-edge topics like Green Skills and AI technologies.
+    - **Real-Time Assistance**: Get instant answers to your queries through an intuitive, user-friendly interface.
+    - **Insights and Logs**: Revisit key insights from your conversations with the chatbot.
+
+    Built with **Python**, **Streamlit**, and **scikit-learn**, SkillBot uses advanced Natural Language Processing (NLP) and machine learning techniques:
+    
+    - Classifies queries into specific intents using Logistic Regression and TF-IDF.
+    - Generates contextually relevant responses.
+    - Handles out-of-scope queries gracefully.
+
+    Whether you're exploring opportunities or diving into advanced AI concepts, SkillBot is here to assist you every step of the way!
+    """)
