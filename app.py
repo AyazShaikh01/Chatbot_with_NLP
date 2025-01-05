@@ -17,7 +17,7 @@ model, vectorizer = train_model(data)
 
 #setting up the UI
 #File for Conversation History
-csv_file = "csv_file = conversation_history.csv"
+csv_file = "conversation_history.csv"
 
 #checking if the CSV file exist of not.
 if not os.path.exists(csv_file):
