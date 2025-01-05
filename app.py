@@ -49,7 +49,7 @@ if option == "Home":
     if user_input:
         response = get_response(user_input, model, vectorizer, data)
         log_csv(user_input, response)
-        st.write(f"Bot:  {response}")
+        st.write(f"SkillBot:  {response}")
 
 elif option == "Conversation History":
     st.title("History")
